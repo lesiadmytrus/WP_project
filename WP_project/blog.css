@@ -1,0 +1,224 @@
+.full-image-block .img-wrapper {
+    position: relative;
+}
+
+.full-image-block .img-wrapper img {
+    width: 100%;
+    height: 250px;
+    background: var(--black-transp, rgba(8, 16, 27, 0.65));
+}
+
+.full-image-block .img-wrapper .title {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52.8px;
+}
+
+.section-news {
+    padding: 70px;
+}
+
+@media (max-width: 768px) {
+    .section-news {
+        padding: 40px 21px 70px 21px;
+    }
+}
+
+.section-news form {
+    margin-bottom: 30px;
+}
+
+.section-news .inputs-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .section-news .inputs-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.section-news .select-wrapper {
+    position: relative;
+}
+
+.section-news .select-wrapper svg {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+}
+
+.section-news select {
+    display: flex;
+    width: 420px;
+    height: 42px;
+    padding: 11px 15px;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .section-news select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+.section-news .search-wrapper .search-input {
+    width: 310px;
+    height: 42px;
+    padding: 11px 15px 11px 55px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #FFF;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .section-news .search-wrapper .search-input {
+        width: 100%;
+    }
+}
+
+
+.section-news .search-wrapper .input-wrapper {
+    position: relative;
+}
+
+.section-news .search-wrapper .input-wrapper svg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 10%;
+}
+
+.section-news .cards-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .section-news .cards-container {
+        grid-template-columns: auto;
+    }
+}
+
+.section-news .card-wrapper {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-news .card-wrapper:not(:nth-child(3n+3)) {
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .section-news .card-wrapper:not(:nth-child(3n+3)) {
+        margin-right: 0;
+    }
+}
+
+.section-news .card-wrapper .card-image img {
+    width: 100%;
+    height: 237px;
+}
+
+.section-news .card-wrapper {
+    max-width: 420px;
+    background-color: #fff;
+}
+
+.section-news .card-wrapper .gray-block {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.section-news .card-wrapper .image-text {
+    padding: 7px 12px;
+    color: #173156;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-transform: capitalize;
+    background-color: #fff;
+}
+
+.section-news .card-wrapper .image-text:first-child {
+    margin-right: 5px;
+}
+
+.section-news .card-content-text {
+    /* max-width: 310px; */
+    display: flex;
+    padding: 15px 20px 20px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.section-news .card-wrapper .card-title {
+    color: #08101B;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.section-news .card-wrapper .card-date {
+    padding-bottom: 10px;
+    color: #08101B;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-transform: capitalize;
+    opacity: 0.6;
+}
+
+.section-news .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-news .btn-wrapper input {
+    height: 42px;
+    padding: 11px 30px;
+    color: var(--Black, #08101B);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:  16.8px;
+    text-transform: uppercase;
+    border: none;
+    background: var(--Grey, #DBDCDD);
+}

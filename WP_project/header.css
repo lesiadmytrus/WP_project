@@ -1,0 +1,110 @@
+.header {
+    max-width: 1440px;
+    padding: 15px 70px 0px 70px;
+    background-color: #173156;
+    border-bottom: 2px solid #27AAE2;
+}
+
+.main-header {
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff26;
+}
+
+.logo-wrapper {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo-link {
+    display: block;
+}
+
+img.header-image {
+    max-width: 240px;
+    height: auto;
+}
+
+.header-container .text-wrapper {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    color:  #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.7;
+}
+
+.top-menu-wrapper .top-menu-items .items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-menu-wrapper .top-menu-items .item {
+    padding: 0 15px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:  16.8px;
+    text-transform: uppercase;
+}
+
+.top-menu-wrapper .top-menu-items .item a {
+    color: #fff;
+}
+
+.top-menu-wrapper .top-menu-items .item:first-child {
+    padding-left: 0;
+}
+
+.top-menu-wrapper .top-menu-items .item:last-child {
+    padding-right: 0;
+}
+
+.top-menu-wrapper .top-menu-items .item:not(:last-child) {
+    border-right: 1px solid #ffffff26;
+}
+
+.sub-header {
+padding: 15px 0;
+}
+
+.sub-header .sub-menu-items .sub-items {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.sub-header .sub-menu-items .sub-items .sub-item a {
+    color: #fff;
+}
+
+.sub-header .sub-menu-items .sub-items .sub-item {
+    padding: 0 15px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.8px;
+}
+
+.sub-header .sub-menu-items .sub-items .sub-item:first-child {
+    padding-left: 0;
+}
+
+.sub-header .sub-menu-items .sub-items .sub-item:last-child {
+    padding-right: 0;
+}
