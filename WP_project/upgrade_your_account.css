@@ -1,0 +1,252 @@
+body {
+    background: #fff !important;
+}
+
+.upgrade-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    align-self: stretch;
+    padding: 20px 70px 70px 70px;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .upgrade-account-container {
+        padding: 20px 21px 70px 21px;
+        gap: 40px;
+    }
+}
+
+.upgrade-account-container .btn-container {
+    display: flex;
+    height: 42px;
+    padding: 11px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #27AAE2;
+}
+
+.upgrade-account-container .btn-container .link-back {
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-transform: uppercase;
+}
+
+.page-title h1 {
+    color: #08101B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.4px;
+}
+
+@media (max-width: 768px) {
+    .page-title h1 {
+        font-size: 28px;
+    }
+}
+
+.membership-section {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.membership-section .account-info {
+    color: #08101B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.membership-section .text-wrapper {
+    display: flex;
+}
+
+.membership-section .text-wrapper:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.membership-section .text-wrapper .i-title {
+    width: 90px;
+    color: #08101B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.4px;
+}
+
+.membership-section .i-type {
+    color: #08101B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    opacity: .7;
+}
+
+.section-price h2 {
+    margin-bottom: 20px;
+    color: #08101B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.container.container-price {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+@media (max-width: 1025px) {
+    .container.container-price {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 601px) {
+    .container.container-price {
+        grid-template-columns: auto;
+    }
+}
+
+.container.container-price .price {
+    border: 3px solid #27AAE2;
+    border-radius: 20px;
+}
+
+.price-header {
+    align-self: stretch;
+    background: #27AAE2;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 3px solid #27AAE2;
+}
+
+.price-stars {
+    display: flex;
+    justify-content: center;
+    padding: 15.5px 76.76px 10px 76.75px;
+}
+
+.price-title {
+    padding-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 57.891px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.price-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 25.629px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.price-sum {
+    padding-top: 15.5px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+}
+
+.price-sum span {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.price-sum .num {
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.upgrade-account-container form {
+    padding: 25px 31.75px 21px 31.75px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-join {
+    display: flex;
+    min-width: 190px;
+    padding: 15px 22px 14px 22px;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #89CC58;
+    background: #89CC58;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.price-description p {
+    color: #08101B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.price-description {
+    display: flex;
+    padding: 20px 20px 46px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.price-description ul li {
+    margin-top: 10px;
+}
+
+.price-description ul li span {
+    color: #08101B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    opacity: .7;
+}
+
+.price-description ul li::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #27AAE2;
+}
+
+.asteriks {
+    margin-top: 10px;
+    color: #4B4B4B;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px;
+}
