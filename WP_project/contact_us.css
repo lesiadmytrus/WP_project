@@ -3,6 +3,7 @@
     display: flex;
     gap: 60px;
     justify-content: center;
+    font-family: 'Inter', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -17,7 +18,6 @@
     width: 100%;
     max-width: 640px;
     padding-right: 40px;
-    /* margin-right: 60px; */
 }
 
 @media (max-width: 768px) {
@@ -28,8 +28,7 @@
 }
 
 .contact-us-container .contact-us-section .text-wrapper .text-title {
-    color: var(--Black, #08101B);
-    font-family: Inter;
+    color: #08101B;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -45,8 +44,7 @@
 
 .contact-us-container .contact-us-section .text-wrapper .text-description  {
     margin: 15px 0;
-    color: var(--Black, #08101B);
-    font-family: Inter;
+    color: #08101B;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -59,8 +57,7 @@
 }
 
 .contact-us-container .contact-us-section .text-wrapper .text-description .tel-numb {
-    color: var(--Blue, #27AAE2);
-    font-family: Inter;
+    color: #27AAE2;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -73,8 +70,7 @@
 }
 
 .contact-us-container .contact-us-section .text-wrapper .text-list  ul li span {
-    color: var(--Black, #08101B);
-    font-family: Inter;
+    color: #08101B;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -89,7 +85,7 @@
     margin-right: 10px;
     display: inline-block;
     border-radius: 100px;
-    background: var(--Blue, #27AAE2);
+    background: #27AAE2;
     opacity: 1;
 }
 
@@ -109,8 +105,7 @@
 
 .newsletter-wrapper .form-title {
     margin-bottom: 20px;
-    color: var(--Black, #08101B);
-    font-family: Inter;
+    color: #08101B;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -123,7 +118,7 @@
     padding: 11px 15px;
     display: flex;
     align-items: center;
-    background: var(--White, #FFF);
+    background: #FFF;
 }
 
 @media (max-width: 768px) {
@@ -143,10 +138,9 @@
 }
 
 .newsletter-wrapper .submit-wrapper .btn-submit {
-    color: var(--White, #FFF);
+    color: #FFF;
     text-align: center;
 
-    font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -160,7 +154,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: var(--Blue, #27AAE2);
+    background: #27AAE2;
 }
 
 @media (max-width: 768px) {
@@ -175,8 +169,7 @@
 
 .social-wrapper .social-title {
     margin-bottom: 20px;
-    color: var(--Black, #08101B);
-    font-family: Inter;
+    color: #08101B;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -192,7 +185,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 100px;
-    background: var(--White, #FFF);
+    background: #FFF;
 }
 
 .icon-wrapper:nth-child(2) {
@@ -216,8 +209,7 @@
 
 .contact-us-form .form-title {
     margin-bottom: 20px;
-    color: var(--Black, #08101B);
-    font-family: Inter;
+    color: #08101B;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -232,8 +224,7 @@
     height: 42px;
     padding: 11px 15px;
 
-    color: var(--Black, #08101B);
-    font-family: Inter;
+    color: #08101B;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -248,12 +239,11 @@
     align-items: flex-start;
     gap: 10px;
     align-self: stretch;
-    background: var(--White, #FFF);
+    background: #FFF;
     border: none;
     resize: none;
 
-    color: var(--Black, #08101B);
-    font-family: Inter;
+    color: #08101B;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -272,7 +262,6 @@
     margin-top: 20px;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -283,6 +272,6 @@
     justify-content: center;
     align-items: center;
 
-    background: var(--Blue, #27AAE2);
+    background: #27AAE2;
     border: none;
 }

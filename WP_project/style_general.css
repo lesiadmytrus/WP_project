@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 html, body {
@@ -14,10 +15,11 @@ body {
     height: 100%;
     background-attachment: fixed;
     background: #F3F3F3;
+    font-family: 'Inter', sans-serif;
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 a {
@@ -29,6 +31,10 @@ select {
     -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
+}
+
+input {
+    border: none;
 }
 
 select:focus,

@@ -12,7 +12,6 @@
 .resources-section .section-title.cards-title {
     padding-bottom: 10px;
     color: #08101B;
-    font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -22,7 +21,6 @@
 .resources-section .description {
     padding-bottom: 30px;
     color: #08101B;
-    font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -49,6 +47,12 @@
     grid-template-columns: auto auto auto auto auto;
 }
 
+@media (max-width: 1200px) {
+    .resources-section .cards-container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
 @media (max-width: 768px) {
     .resources-section .cards-container {
         grid-template-columns: auto;
@@ -62,7 +66,6 @@
 .resources-section .card-wrapper .card-title {
     padding-top: 10px;
     color:  #08101B;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -71,7 +74,6 @@
 
 .resources-section .card-wrapper .card-sub-title {
     color: #08101B;
-    font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -84,7 +86,6 @@
     top: 15px;
     left: 15px;
     color: #FFF;
-    font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
